@@ -6,5 +6,7 @@
 
 	<bean id="patient"
 		class="com.livingoncodes.spring.springtutorial04.Patient">
+	<constructor-arg value="5" name="id"></constructor-arg>
+	<constructor-arg value="Tom" name="name"></constructor-arg>
 	</bean>
 </beans>
