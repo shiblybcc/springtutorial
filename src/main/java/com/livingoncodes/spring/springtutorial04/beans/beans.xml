@@ -4,8 +4,13 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-	<bean id="patient" class="com.livingoncodes.spring.springtutorial04.Patient">
+	<bean id="patient"
+		class="com.livingoncodes.spring.springtutorial04.Patient">
 		<constructor-arg value="5" name="id"></constructor-arg>
 		<constructor-arg value="Tom" name="name"></constructor-arg>
+		<!-- <property name="nationalId" value="1234"></property>  #this also works -->		
+		<property name="nationalId">
+			<value>12345</value>
+		</property>
 	</bean>
 </beans>
