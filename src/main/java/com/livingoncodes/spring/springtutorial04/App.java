@@ -17,7 +17,11 @@ public class App
     	Patient patient = (Patient) context.getBean("patient");
     	patient.speak();
     	
+//    	Address address = (Address) context.getBean("address");
+    	
+    	
     	System.out.println(patient);
+//    	System.out.println(address);
     	
     	((ClassPathXmlApplicationContext) context).close();
     	
