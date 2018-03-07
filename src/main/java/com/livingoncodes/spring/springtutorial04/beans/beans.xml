@@ -4,9 +4,8 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-	<bean id="patient"
-		class="com.livingoncodes.spring.springtutorial04.Patient">
-	<constructor-arg value="5" name="id"></constructor-arg>
-	<constructor-arg value="Tom" name="name"></constructor-arg>
+	<bean id="patient" class="com.livingoncodes.spring.springtutorial04.Patient">
+		<constructor-arg value="5" name="id"></constructor-arg>
+		<constructor-arg value="Tom" name="name"></constructor-arg>
 	</bean>
 </beans>
